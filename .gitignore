@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local configuration
+.env
+
+# Model files (fetched by download_models.py) and downloaded archives
+models/*
+!models/.gitkeep
+*.dat
+*.bz2
+*.zip
+
+# Personal data: reference photos, test photos, attendance records and results.
+# Only the .gitkeep placeholders are tracked.
+data/images/*
+!data/images/.gitkeep
+data/test_images/*
+!data/test_images/.gitkeep
+data/attendance/
+data/results/
+test_results/
+
+# Same folders when simple_version/ scripts are run from inside simple_version/
+simple_version/data/
